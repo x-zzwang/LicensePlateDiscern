@@ -2,34 +2,34 @@
 # Be sure to run `pod lib lint ZWLicensePlateDiscern.podspec' to ensure this is a
 # valid spec before submitting.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+# ZWLicensePlateDiscern.podspec
+#
+#  Created by ZaneWangWang on 12/26/2019.
+#  Copyright (c) 2019 ZaneWangWang. All rights reserved.
 #
 
 Pod::Spec.new do |s|
+  # 项目名称
   s.name             = 'ZWLicensePlateDiscern'
+  # 版本号
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZWLicensePlateDiscern.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  # 简介
+  s.summary          = '车牌识别库'
+  # 描述
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 借助OpenCV实现的车牌识别库
                        DESC
-
-  s.homepage         = 'https://github.com/ZaneWangWang/ZWLicensePlateDiscern'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # 主页
+  s.homepage         = 'https://github.com/x-zzwang/LicensePlateDiscern.git'
+  # 开源证书
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ZaneWangWang' => '17628048484@163.com' }
-  s.source           = { :git => 'https://github.com/ZaneWangWang/ZWLicensePlateDiscern.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  # 作者
+  s.author           = { 'x-zzwang' => '17628048484@163.com' }
+  # 仓库地址
+  s.source           = { :git => 'https://github.com/x-zzwang/LicensePlateDiscern.git', :tag => s.version.to_s }
+  # 平台及支持的最低版本
+  s.ios.deployment_target = '9.0'
+  # 代码的位置
   s.source_files = 'ZWLicensePlateDiscern/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +37,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  # 支持的框架
   # s.frameworks = 'UIKit', 'MapKit'
+  # 依赖库
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

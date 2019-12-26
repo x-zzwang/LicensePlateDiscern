@@ -1,0 +1,22 @@
+{
+  "name": "ZWLicensePlateDiscern",
+  "version": "0.1.0",
+  "summary": "A short description of ZWLicensePlateDiscern.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZaneWangWang/ZWLicensePlateDiscern",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZaneWangWang": "17628048484@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ZaneWangWang/ZWLicensePlateDiscern.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZWLicensePlateDiscern/Classes/**/*"
+}

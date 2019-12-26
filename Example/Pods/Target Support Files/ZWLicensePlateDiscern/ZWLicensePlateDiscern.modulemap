@@ -1,0 +1,6 @@
+framework module ZWLicensePlateDiscern {
+  umbrella header "ZWLicensePlateDiscern-umbrella.h"
+
+  export *
+  module * { export * }
+}

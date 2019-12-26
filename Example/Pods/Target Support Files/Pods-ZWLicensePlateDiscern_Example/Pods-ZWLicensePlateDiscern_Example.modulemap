@@ -1,0 +1,6 @@
+framework module Pods_ZWLicensePlateDiscern_Example {
+  umbrella header "Pods-ZWLicensePlateDiscern_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

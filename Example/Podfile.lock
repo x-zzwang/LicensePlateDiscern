@@ -1,0 +1,16 @@
+PODS:
+  - ZWLicensePlateDiscern (0.1.0)
+
+DEPENDENCIES:
+  - ZWLicensePlateDiscern (from `../`)
+
+EXTERNAL SOURCES:
+  ZWLicensePlateDiscern:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZWLicensePlateDiscern: 44ccbbbd0c2e18e612f444c14c467cbf93e2b5bf
+
+PODFILE CHECKSUM: 5e094091b696a8c6aa522f09d9a35c8277253d15
+
+COCOAPODS: 1.8.4

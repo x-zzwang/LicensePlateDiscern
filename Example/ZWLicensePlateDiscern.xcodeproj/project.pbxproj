@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F485E2723B4A114006CBB35 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2F485E2323B4A114006CBB35 /* .gitkeep */; };
+		2F485E2823B4A114006CBB35 /* ZWTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F485E2423B4A114006CBB35 /* ZWTestObject.m */; };
+		2F485E2923B4A114006CBB35 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2F485E2623B4A114006CBB35 /* .gitkeep */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		18B1CE304D2C2F897D500BFD /* ZWLicensePlateDiscern.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZWLicensePlateDiscern.podspec; path = ../ZWLicensePlateDiscern.podspec; sourceTree = "<group>"; };
+		2F485E2223B4A114006CBB35 /* ZWTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTestObject.h; sourceTree = "<group>"; };
+		2F485E2323B4A114006CBB35 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2F485E2423B4A114006CBB35 /* ZWTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTestObject.m; sourceTree = "<group>"; };
+		2F485E2623B4A114006CBB35 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2F485E2A23B4A147006CBB35 /* ZWLicensePlateDiscern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWLicensePlateDiscern.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZWLicensePlateDiscern_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWLicensePlateDiscern_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +103,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F485E2023B4A114006CBB35 /* ZWLicensePlateDiscern */ = {
+			isa = PBXGroup;
+			children = (
+				2F485E2123B4A114006CBB35 /* Classes */,
+				2F485E2523B4A114006CBB35 /* Assets */,
+			);
+			name = ZWLicensePlateDiscern;
+			path = ../ZWLicensePlateDiscern;
+			sourceTree = "<group>";
+		};
+		2F485E2123B4A114006CBB35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F485E2A23B4A147006CBB35 /* ZWLicensePlateDiscern.h */,
+				2F485E2223B4A114006CBB35 /* ZWTestObject.h */,
+				2F485E2423B4A114006CBB35 /* ZWTestObject.m */,
+				2F485E2323B4A114006CBB35 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F485E2523B4A114006CBB35 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2F485E2623B4A114006CBB35 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		5E64EAEF5880CADD24DED85B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +146,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				2F485E2023B4A114006CBB35 /* ZWLicensePlateDiscern */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZWLicensePlateDiscern */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -247,6 +285,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ZaneWangWang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 56TMY6G9D2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,6 +320,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				2F485E2723B4A114006CBB35 /* .gitkeep in Resources */,
+				2F485E2923B4A114006CBB35 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -302,10 +345,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZWLicensePlateDiscern_Example/Pods-ZWLicensePlateDiscern_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/ZWLicensePlateDiscern/ZWLicensePlateDiscern.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZWLicensePlateDiscern.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZWAppDelegate.m in Sources */,
+				2F485E2823B4A114006CBB35 /* ZWTestObject.m in Sources */,
 				6003F5A7195388D20070C39A /* ZWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -494,6 +540,7 @@
 			baseConfigurationReference = DAD11751ACB797F842D3D616 /* Pods-ZWLicensePlateDiscern_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56TMY6G9D2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Prefix.pch";
 				INFOPLIST_FILE = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Info.plist";
@@ -511,6 +558,7 @@
 			baseConfigurationReference = 86DFE8AA6CA06C96A564E677 /* Pods-ZWLicensePlateDiscern_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56TMY6G9D2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Prefix.pch";
 				INFOPLIST_FILE = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Info.plist";

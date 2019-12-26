@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name             = 'ZWLicensePlateDiscern'
   # 版本号
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   # 简介
   s.summary          = '车牌识别库'
   # 描述
@@ -36,7 +36,7 @@ TODO: 借助OpenCV实现的车牌识别库
   #   'ZWLicensePlateDiscern' => ['ZWLicensePlateDiscern/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**'
   # 支持的框架
   # s.frameworks = 'UIKit', 'MapKit'
   # 依赖库

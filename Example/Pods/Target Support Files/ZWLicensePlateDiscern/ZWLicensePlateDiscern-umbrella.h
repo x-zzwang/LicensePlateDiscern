@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZWLicensePlateDiscern.h"
 #import "ZWTestObject.h"
 
 FOUNDATION_EXPORT double ZWLicensePlateDiscernVersionNumber;

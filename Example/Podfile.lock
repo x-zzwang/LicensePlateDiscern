@@ -1,34 +1,16 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - ZWLicensePlateDiscern (0.1.0)
+  - ZWLicensePlateDiscern (0.1.1)
 
 DEPENDENCIES:
-  - AFNetworking
-  - ZWLicensePlateDiscern
+  - ZWLicensePlateDiscern (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - AFNetworking
-    - ZWLicensePlateDiscern
+EXTERNAL SOURCES:
+  ZWLicensePlateDiscern:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ZWLicensePlateDiscern: dfcd849c3657631073f33f1a547c9ffc66675592
+  ZWLicensePlateDiscern: c262d7d81e87e2d0dc0d7b4987731e46c574c4af
 
-PODFILE CHECKSUM: 26685f55423bf26bcc83b73306cf88495d6cc2dd
+PODFILE CHECKSUM: 7325d9fa2782d895924e3465ab177e71612a6c86
 
 COCOAPODS: 1.8.4

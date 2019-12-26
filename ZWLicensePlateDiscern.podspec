@@ -1,8 +1,8 @@
 #
-# Be sure to run `pod lib lint ZWLicensePlateDiscern.podspec' to ensure this is a
-# valid spec before submitting.
+#  Be sure to run `pod lib lint ZWLicensePlateDiscern.podspec' to ensure this is a
+#  valid spec before submitting.
 #
-# ZWLicensePlateDiscern.podspec
+#  ZWLicensePlateDiscern.podspec
 #
 #  Created by ZaneWangWang on 12/26/2019.
 #  Copyright (c) 2019 ZaneWangWang. All rights reserved.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name             = 'ZWLicensePlateDiscern'
   # 版本号
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   # 简介
   s.summary          = '车牌识别库'
   # 描述
@@ -30,13 +30,13 @@ TODO: 借助OpenCV实现的车牌识别库
   # 平台及支持的最低版本
   s.ios.deployment_target = '9.0'
   # 代码的位置
-  s.source_files = 'ZWLicensePlateDiscern/Classes/**/*'
+  s.source_files = 'ZWLicensePlateDiscern/Classes/**'
   
   # s.resource_bundles = {
   #   'ZWLicensePlateDiscern' => ['ZWLicensePlateDiscern/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**'
+  s.public_header_files = 'ZWLicensePlateDiscern/ZWLicensePlateDiscern.h'
   # 支持的框架
   # s.frameworks = 'UIKit', 'MapKit'
   # 依赖库

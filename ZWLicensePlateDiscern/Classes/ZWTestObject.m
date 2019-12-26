@@ -9,4 +9,8 @@
 
 @implementation ZWTestObject
 
++ (void)zw_testMethod {
+    NSLog(@"ZWTestObject Method !");
+}
+
 @end

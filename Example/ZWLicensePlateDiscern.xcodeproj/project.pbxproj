@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18B1CE304D2C2F897D500BFD /* ZWLicensePlateDiscern.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZWLicensePlateDiscern.podspec; path = ../ZWLicensePlateDiscern.podspec; sourceTree = "<group>"; };
+		18B1CE304D2C2F897D500BFD /* ZWLicensePlateDiscern.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZWLicensePlateDiscern.podspec; path = ../ZWLicensePlateDiscern.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZWLicensePlateDiscern_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWLicensePlateDiscern_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D56871AA117EE5982B83B60 /* Pods_ZWLicensePlateDiscern_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWLicensePlateDiscern_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31AEFFB05A7FF94BE4449B1 /* Pods-ZWLicensePlateDiscern_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWLicensePlateDiscern_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZWLicensePlateDiscern_Tests/Pods-ZWLicensePlateDiscern_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC32C41EBAF38C56CBFFC620 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC32C41EBAF38C56CBFFC620 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DAD11751ACB797F842D3D616 /* Pods-ZWLicensePlateDiscern_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWLicensePlateDiscern_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZWLicensePlateDiscern_Example/Pods-ZWLicensePlateDiscern_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF684136F2C6EA5765357552 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF684136F2C6EA5765357552 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FD8D47DC890F1C2608BBD538 /* Pods-ZWLicensePlateDiscern_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWLicensePlateDiscern_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZWLicensePlateDiscern_Tests/Pods-ZWLicensePlateDiscern_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				B31AEFFB05A7FF94BE4449B1 /* Pods-ZWLicensePlateDiscern_Tests.debug.xcconfig */,
 				FD8D47DC890F1C2608BBD538 /* Pods-ZWLicensePlateDiscern_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Prefix.pch";
 				INFOPLIST_FILE = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Prefix.pch";
 				INFOPLIST_FILE = "ZWLicensePlateDiscern/ZWLicensePlateDiscern-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
